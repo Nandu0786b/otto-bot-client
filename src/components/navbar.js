@@ -10,7 +10,7 @@ const Navbar = (props) => {
   return (
   <>
 <nav className="flex justify-between px-20 py-5 items-center bg-white">
-  <h1 className="text-xl text-gray-800 font-bold">Stocks</h1>
+  <h1 className="text-xl text-gray-800 font-bold">Otto.bot</h1>
   <div className="flex items-center">
   
     <div className='flex items-center'>

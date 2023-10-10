@@ -1,4 +1,4 @@
-importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js");
+if(localStorage.getItem('token')){importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js");
 importScripts(
   "https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js"
 );
@@ -29,3 +29,4 @@ messaging.onBackgroundMessage((payload) => {
 
   self.registration.showNotification(notificationTitle, notificationOptions);
 });
+}
